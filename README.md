@@ -6,12 +6,6 @@ A compact Windows trophy tool for Call of Duty: Modern Warfare Remastered 1.15, 
 
 **[Download v1.0.4 for Windows x64](https://github.com/ials96/MWR-Trophy-Tool/releases/download/v1.0.4/MWR-Trophy-Tool-v1.0.4-win-x64.zip)** · **[Latest release](https://github.com/ials96/MWR-Trophy-Tool/releases/latest)** · **[Discord](https://discord.gg/ZRvVJkc92)**
 
-## Preview
-
-**[Watch the program preview](media/mwr-trophy-tool-preview.mp4)**
-
-The 14-second preview shows the interface, loading bar and platinum completion animation. It is an interface demonstration, not a recording of a live console award or a timing benchmark.
-
 ## Setup
 
 1. Download the ZIP from Releases and extract the complete folder. Keep its supporting files together.
@@ -45,7 +39,7 @@ Logs, settings and LAN backups are stored under `%LOCALAPPDATA%\ials96\MWR Troph
 
 ## Files and credits
 
-Release assets include the Windows ZIP, the preview MP4 and `SHA256SUMS.txt`. The ZIP contains the application, matching debugger payloads, instructions, licenses and corresponding upstream debugger source archives.
+Release assets include the Windows ZIP and `SHA256SUMS.txt`. The ZIP contains the application, matching debugger payloads, instructions, licenses and corresponding upstream debugger source archives.
 
 See [third-party notices](THIRD-PARTY-NOTICES.txt) for component and artwork credits. Call of Duty, Modern Warfare Remastered and PlayStation belong to their respective owners; no affiliation or endorsement is implied.
 
