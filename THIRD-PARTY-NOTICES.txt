@@ -1,0 +1,31 @@
+Trophy Tool application: Made by ials96.
+
+Barlow Condensed Medium font: The Barlow Project Authors.
+SIL Open Font License 1.1, included in Assets/OFL.txt.
+https://github.com/google/fonts/tree/main/ofl/barlowcondensed
+
+ps4debug-NG 1.3.2 and ps5debug-NG 1.3.2: OSR, Pharaoh2k and upstream
+contributors. Distributed as separate unmodified payload programs.
+Payload hashes are verified before sending. GPL-3 licenses and the
+corresponding tagged source archives are included in ThirdParty.
+https://github.com/Pharaoh2k/ps4debug-NG/tree/1.3.2
+https://github.com/Pharaoh2k/ps5debug-NG/tree/1.3.2
+
+Call of Duty and Modern Warfare Remastered are Activision trademarks.
+The brand image is a game-logo reference edited only to remove the
+Multiplayer subtitle. It does not imply endorsement or affiliation.
+Original reference: https://www.steamgriddb.com/logo/112508
+
+Microsoft .NET / Windows Desktop runtime components, when present in a
+self-contained release, retain their respective Microsoft/.NET licenses.
+
+XamlAnimatedGif 2.3.2: Thomas Levesque and contributors, Apache-2.0.
+See ThirdParty/XamlAnimatedGif-LICENSE.txt.
+https://github.com/XamlAnimatedGif/XamlAnimatedGif
+
+Platinum GIF published by LAZOR__ on GIPHY, included unchanged:
+https://giphy.com/stickers/transparent-xq7rfiGyANFRb9U3of
+Creator sharing context: https://www.reddit.com/r/Steam/comments/1k3sph4/
+The PS5-style animation is not an official Sony asset export. PlayStation
+and the trophy design are Sony marks. No affiliation is implied.
+The loading-bar artwork is a native reconstruction of the user's reference.
