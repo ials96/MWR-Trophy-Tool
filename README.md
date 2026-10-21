@@ -4,7 +4,7 @@
 
 A compact Windows trophy tool for Call of Duty: Modern Warfare Remastered 1.15, with a green MWR-style interface, PS4/PS5 selection, automatic debugger reuse, optional LAN Compatibility and guest-player selection.
 
-**[Download v1.0.4 for Windows x64](https://github.com/ials96/MWR-Trophy-Tool/releases/download/v1.0.4/MWR-Trophy-Tool-v1.0.4-win-x64.zip)** · **[Latest release](https://github.com/ials96/MWR-Trophy-Tool/releases/latest)** · **[Discord](https://discord.gg/ZRvVJkc92)**
+**[Download v1.0.5 for Windows x64](https://github.com/ials96/MWR-Trophy-Tool/releases/download/v1.0.5/MWR-Trophy-Tool-v1.0.5-win-x64.zip)** · **[Latest release](https://github.com/ials96/MWR-Trophy-Tool/releases/latest)** · **[Discord](https://discord.gg/ZRvVJkc92)**
 
 ## Setup
 
@@ -19,7 +19,16 @@ A compact Windows trophy tool for Call of Duty: Modern Warfare Remastered 1.15, 
 
 **STOP** cancels the remaining requests after the current request is accounted for. It also interrupts processing pauses.
 
-## What's new in v1.0.4
+## What's new in v1.0.5
+
+- Fixed **Invalid process mapping** when a compatible PS4 debug-NG service returns an empty leading memory-map record.
+- Only that completely empty first record is excluded. All real-map ranges, supported-build verification and existing recipient/write protections remain validated. The PS5 path is unchanged.
+- **46 automated regression checks passed**, including replay of the affected PS4 map response. The affected tester confirmed successful connection after the fix, as reported by the tool author.
+- Download and extract the full v1.0.5 ZIP to update. No automatic updater was added; the supported game version is still **MWR 1.15**.
+
+See the [changelog](CHANGELOG.md) for release history.
+
+## Retained from v1.0.4
 
 - Bounded recovery when a normal game message consumes or replaces the staged entry.
 - Grouped debugger reads and immediate acknowledgment checks reduce unnecessary waiting.
@@ -30,9 +39,9 @@ A compact Windows trophy tool for Call of Duty: Modern Warfare Remastered 1.15, 
 ## Compatibility and validation
 
 - The verified executable profile is **MWR 1.15, CUSA05379**. Unsupported signatures are refused.
-- PS4 and PS5 debugger transports are implemented. Live console validation used a PS5 host; PS4 is not claimed as separately live-tested.
+- PS4 and PS5 debugger transports are implemented. Earlier live trophy validation used a PS5 host; the affected PS4 tester has now confirmed that the v1.0.5 connection fix works, as reported by the tool author. This is not a claim of a new complete PS4 trophy run or universal firmware compatibility.
 - This tool requires an appropriately prepared modified host and a working local connection. It does not jailbreak the console. The guest can remain unmodified.
-- **37 automated regression checks passed.** A live run delivered all 50 requests; four remaining locked trophies were subsequently sent with processing gaps, and the tester confirmed all four unlocked and platinum appeared.
+- **46 automated regression checks passed.** Earlier live testing delivered all 50 requests; four remaining locked trophies were subsequently sent with processing gaps, and the tester confirmed all four unlocked and platinum appeared.
 - The final batch timing was checked automatically; a complete new live run with that timing has not yet been confirmed. Timing and outcomes can vary, so check the guest console's trophy list.
 
 Logs, settings and LAN backups are stored under `%LOCALAPPDATA%\ials96\MWR Trophy Tool`.
